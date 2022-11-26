@@ -43,7 +43,6 @@ stage('Deploy to Tomcat Server'){
 }
     
 }
-}//node closing
 }//try closing
 
 catch(e){
