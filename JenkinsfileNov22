@@ -23,6 +23,7 @@ stage('Build'){
 sh "${mavenHome}/bin/mvn clean package"
 }
 
+/*
 // Execute SonarQube Report
 stage('Execute Sonarqube Report'){
     
@@ -43,6 +44,7 @@ stage('Deploy to Tomcat Server'){
 }
     
 }
+*/
 }//try closing
 
 catch(e){
