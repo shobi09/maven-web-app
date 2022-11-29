@@ -15,7 +15,7 @@ stage('CheckoutCode'){
 sendSlackNotifications("STARTED")
 
     
-    git branch: 'development', credentialsId: '7a1b06bc-9376-421b-bb01-0f82003d3369', url: 'https://github.com/shobi09/maven-web-app.git'
+    git branch: 'master', credentialsId: '7a1b06bc-9376-421b-bb01-0f82003d3369', url: 'https://github.com/shobi09/maven-web-app.git'
 }
 //Build
 stage('Build'){
